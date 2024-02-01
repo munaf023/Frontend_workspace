@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tag</title>
+</head>
+
+<body>
+    <h1>Enter your details for Admission Process</h1>
+    <div>
+        <form action="post">
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" name="username" placeholder="Enter your username">
+    </div>
+
+    <input type="radio" id="Male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="Female" name="gender" value="Female">
+    <label for="Female">Female</label>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+    </div>
+    <div>
+        <label for="comment">Enter your comment</label>
+        <textarea name="comment" rows="4" cols="40">
+      </textarea>
+
+      <div>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+      </select>
+      </div>
+    </div>
+</form>
+
+</body>
+
+</html>
