@@ -1,0 +1,283 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .logo {
+
+            /* background-color: aqua; */
+        }
+
+        .logo img {
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu ul {
+            display: flex;
+            gap: 30px;
+        }
+
+        .menu ul li {
+            list-style: none;
+
+        }
+
+        .container {
+            background-color: beige;
+            border: 2px solid black;
+            height: 950px;
+            display: grid;
+            grid-template-columns: 120px 120px 120px;
+            gap: 90px;
+            justify-content: center;
+        }
+
+        .box1 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+
+        }
+
+
+        .box2 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .box3 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .box4 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .box5 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .box6 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .box7 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .box8 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .box9 {
+            background-color: azure;
+            border: 2px solid blue;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Products</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About</li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <h1>Download UltraEdit</h1>
+
+    <main>
+        <div class="container">
+            <div class="box box1">English</div>
+            <div class="box box2">German</div>
+            <div class="box box3">Italian</div>
+            <div class="box box4">Spanish</div>
+            <div class="box box5">French</div>
+            <div class="box box6">Brazilian Portuguese</div>
+            <div class="box box7">Japanese</div>
+            <div class="box box8">Korean</div>
+            <div class="box box9">Chinese</div>
+        </div>
+    </main>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Products</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <span>Download <b>UltraEdit</b> for Windows <img width="80px"
+                    src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></span>
+
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
+                editor.</p>
+            <div>
+                <button class="btn">DOWNLOAD MAC OR LINUX VERSION </button>
+            </div>
+        </section>
+
+        <section class="second">
+            <div class="flex">
+                <div>Download UltraEdit </div>
+                <div class="small">v2023.1(released 08/16/2023) | Hotfix</div>
+            </div>
+
+            <div class="grid">
+                <div class="item">
+                  <div class="item-lang"> English</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang"> Deutsch</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang"> Italiano</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang">Español</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang">français</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang">Português brasileiro</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang">日本</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang"> 한국어</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+                <div class="item">
+                  <div class="item-lang">中国</div> 
+                  <button class="btn blue">Download 32 bits</button>
+                  <button class="btn green">Download 64 bits</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+            animation: myfirst 5s;
+            animation-direction: alternate-reverse;
+
+        }
+        @keyframes myfirst {
+            0% {
+                background-color: red ; left: 0px; top: 0px;
+            }
+            25%
+            {
+                background-color: aqua; left:200px; top: 0px;
+            }
+            50%
+            {
+                background-color: blueviolet; left:200px; top: 200px;
+            }
+            75%
+            {
+                background-color: brown; left: 0px; top: 200px;
+            }
+            100%
+            {
+                background-color: burlywood;left: 0px; top: 0px;
+            }    
+        }
+    </style>
+</head>
+<body>
+    <h1>animation-direction: alternate-reverse</h1>
+    <div></div>
+</body>
+</html>

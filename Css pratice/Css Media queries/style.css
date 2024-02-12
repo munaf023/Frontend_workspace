@@ -1,0 +1,31 @@
+body {
+    background-color: red;
+}
+
+@media only screen and (max-width: 344px) {
+    body {
+        background-color: blue;
+    }
+}
+.box1{
+    display: flex;
+}
+.box2{
+    height: 344px;
+    width: 344px;
+    background-color: aqua;
+    padding: 3px;
+    margin: 3px;
+}.box3{
+    height: 344px;
+    width: 344px;
+    background-color: aqua;
+    padding: 3px;
+    margin: 3px;
+}.box4{
+    height: 344px;
+    width: 344px;
+    background-color: aqua;
+    padding: 3px;
+    margin: 3px;
+}

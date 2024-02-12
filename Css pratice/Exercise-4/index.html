@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi color nav</title>
+    <style>
+        :root{
+            --background-color1: aquamarine;
+            --background-color2: red;
+            --background-color3: purple;
+        }
+        
+        
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .nav {
+            background-color: var(--background-color1);
+
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 20px;
+            border: 2px solid var(--background-color2);
+        }
+
+        .content {
+            background-color: var(--background-color3);
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contact us</li>
+            <li>About</li>
+        </ul>
+
+        <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium consectetur impedit
+            dolorem ullam soluta. Quidem numquam reprehenderit assumenda exercitationem cum, quibusdam id temporibus
+            veniam sequi dolorem repellendus ad rem suscipit omnis officiis. Culpa distinctio cupiditate quaerat sequi
+            ipsa recusandae suscipit veniam, consequuntur voluptatum quae repudiandae, sapiente maxime quia saepe enim
+            repellendus delectus asperiores voluptates quidem reiciendis. Velit qui nobis quia voluptatem accusamus
+            natus perferendis, hic laboriosam error eos non harum, unde totam magni, modi ipsam provident aliquam rerum
+            obcaecati! Atque error, itaque accusamus expedita aspernatur commodi possimus perspiciatis explicabo
+            recusandae esse magni numquam repudiandae adipisci, ex cumque nulla perferendis cupiditate!</div>
+    </div>
+
+</body>
+
+</html>

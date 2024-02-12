@@ -1,0 +1,23 @@
+:root{
+    --color: rgb(33, 5, 32);
+    --seccolor: rgb(231, 164, 246);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: var(--color);
+}
+ul{
+    display: flex;
+    color: beige;
+}
+ul li{
+    padding: 25px;
+    list-style: none; 
+    border: 2px solid var(--seccolor);
+}
+.content{
+    background-color:var(--seccolor);
+}

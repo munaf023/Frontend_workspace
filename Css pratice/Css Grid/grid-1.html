@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css grid</title>
+    <style>
+        .container {
+            width: 80vw;
+            height: 100vh;
+            border: 2px solid black;
+            display: grid;
+            /* grid-template-columns: [name-one]120px [name-two]100px;
+            grid-template-rows: 100px 100px 100px; */
+            /* FR UNIT */
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+
+        }
+
+        .item {
+            border: 2px solid red;
+            height: 55px;
+            width: 50px;
+        }
+
+        /* .item-4 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        } */
+
+        .item-1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item-4">4</div>
+        <div class="item">5</div>
+    </div>
+
+</body>
+
+</html>

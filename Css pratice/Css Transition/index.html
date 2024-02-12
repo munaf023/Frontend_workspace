@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Transition</title>
+    <style>
+        .content{
+            background-color: beige;
+            height: 70vh;
+            width: 80vw;
+            padding: 50px;
+
+        }
+        .box{
+            
+            background-color: blueviolet;
+            height: 6vh;
+            width: 3vw;
+            transition-property: transform;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+
+        }
+
+        .translate{
+            transform: translateX(10vh) translateY(10vw) scale(2);
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="content">
+        <div class="box translate">Munaf</div>
+    </div>
+    
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            width: 50vw;
+            height: 40vh;
+        }
+
+        .box{
+            background-color: aquamarine;
+            width: 5vw;
+            height: 4vh;
+            /* transition-property: background-color, transform;
+            transition-duration: 3s;
+            transition-timing-function: cubic-bezier(0.22, 0.43, 0, 0.99); */
+            /* transition-delay: 1s; */
+            transition: all 3s cubic-bezier(0.09, 0.5, 0, 0.99) 1s;
+        }
+
+        .translate{
+            transform: translateX(10vw) translateY(10vh) scale(2);
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box translate"></div>
+    </div>
+</body>
+</html> -->

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR</title>
+    <style>
+        /* Element selector */
+        div{
+            background-color: aqua;
+        }
+        /* Class selector */
+        .red{
+            background-color: red;
+        }
+        /* ID selector */
+        #green{
+            background-color: blue;
+        }
+        /* Child class selector */
+        div > p{
+            background-color: rgb(28, 252, 88);
+        }
+        /* Descendant Selector  */
+        div p{
+            background-color: chocolate;
+        }
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        /* Pseudo Selector  */
+        a:visited{
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        I am first div
+    </div>
+    
+    <div class="red">
+        I am div with class
+    </div>
+
+    <div id="green">
+        I am div with ID
+    </div>
+
+    <div class="para">
+        <article>
+        <p>I am div with para.</p>
+        </article>
+    </div>
+
+    <div>
+        <a href="http://www.google.com">Go to Google</a>
+    </div>
+    
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector  */
+        div{
+            /* background-color: red; */
+        }
+
+        /* Class Selector  */
+        .red{
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selectors  */
+        div > p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Descendant Selector  */
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Universal Selector */
+        * {
+            margin:0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector  */
+        a:visited{
+            color: yellow
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: yellow;
+        }
+
+
+        p:first-child{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div class="red">
+        I am a div
+        <article>
+
+            <p>I am a para inside div</p>
+        </article>
+    </div>
+
+    <div id="green">
+        I am another div
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook2.com">Go to Facebook</a>
+</body>
+</html> -->

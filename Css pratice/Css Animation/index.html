@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css Animation</title>
+    <style>
+        .content{
+            background-color: black;
+            width: 80vw;
+            height: 70vh;
+        }
+        .box{
+            background-color: blueviolet;
+            color: white;
+            height: 4vh;
+            width: 3vw;
+            animation-name: moonanimate;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes moonanimate{
+            from{
+                background-color: blueviolet;
+            }
+            to{
+                background-color: brown;
+                transform: translateX(1000px)
+                
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="box">Moon</div>
+    </div>
+    
+</body>
+</html>
