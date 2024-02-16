@@ -1,0 +1,27 @@
+/* to work on width = we use justify content
+to work on height  = we use align items */
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+#box3
+{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
