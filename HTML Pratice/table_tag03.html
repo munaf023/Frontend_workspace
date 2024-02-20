@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- using colspan and rowspan -->
+
+<body>
+    <h1>Colspan used to merge</h1>
+    <table border="2">
+        <tr>
+            <th>SR.No</th>
+            <th>Item</th>
+            <th>quantity</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Earphone</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Headphone</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                Total:20
+            </td>
+        </tr>
+    </table>
+         <h1>Rowspan is used to merge</h1>
+         <table border="2">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">david</td>
+                <td>phy</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>science</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Alex</td>
+                <td>phy</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>maths</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>science</td>
+                <td>70</td>
+            </tr>
+         </table>
+</body>
+
+</html>
