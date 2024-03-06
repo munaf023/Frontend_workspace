@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+#left{
+    position: relative;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: lighter;
+}
+#content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#content h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+#content p {
+    font-size: 13px;
+    font-weight: normal;
+}
+#content h5{
+    position: absolute;
+    border-bottom: 1px solid grey;
+}
+#right{
+    width: 65%;
+    height: 100%;
+    background-color: cadetblue;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    background-color: violet;
+}
+#rbottom{
+    width: 100%;
+    height: 45%;
+    background-image: url(https://images.unsplash.com/photo-1709490412060-38ae4b64e890?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8);
+    background-position: center;
+    background-size: cover;
+}
+#rtop1{
+    width: 55%;
+    height: 100%;
+    /* background-image: url(https://images.unsplash.com/photo-1708848504369-55f60bc664e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JhbmdlfGVufDB8fDB8fHww);
+    background-size: 100px;
+    background-position: right;
+}
+#rtop2{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+}
+@media(max-width: 700px)
+{
+    #main{
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+    }
+}
